@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <ul id="menu">
+      <li>Trang chủ</li>
+      <li>Giới thiệu</li>
+      <li>Liên hệ</li>
+    </ul>
+    <script>
+      const nodeList = document.querySelectorAll("#menu li");
+      console.log(nodeList);             
+      console.log(nodeList.length);       
+      console.log(nodeList[0].textContent); 
+      nodeList.forEach((node) => {
+        console.log(node.textContent);
+      });
+    </script>
+  </body>
+</html>
